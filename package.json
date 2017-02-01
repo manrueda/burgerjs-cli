@@ -1,0 +1,17 @@
+{
+  "name": "burgerjs-cli",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "bin": {
+    "burgerjs": "bin/burgerjs"
+  },
+  "preferGlobal": true,
+  "repository": "git@github.com:ManRueda/burgerjs-cli.git",
+  "author": "Manuel Rueda <manuel.rueda.un@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^6.7.1",
+    "intl": "^1.2.5",
+    "intl-relativeformat": "^1.3.0"
+  }
+}
