@@ -1,10 +1,6 @@
 # burgerjs-cli
 
-Get the next [Burger.js](meetup.com/es-ES/burgerjs/) event information right into your console.
-
-### Demo
-
-![Demo](http://g.recordit.co/zT0KrWjXoW.gif)
+Get the next [Burger.js](https://www.meetup.com/es-ES/burgerjs/) event information right into your console.
 
 ### Installation
 
@@ -12,6 +8,10 @@ Get the next [Burger.js](meetup.com/es-ES/burgerjs/) event information right int
 npm i -g burgerjs-cli
 burgerjs
 ```
+
+### Demo
+
+![Demo](http://g.recordit.co/zT0KrWjXoW.gif)
 
 ### License
 
