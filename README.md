@@ -1,3 +1,18 @@
 # burgerjs-cli
 
-This package will install the `burgerjs` command to know when is the next BurgerJS
+Get the next [Burger.js](meetup.com/es-ES/burgerjs/) event information right into your console.
+
+### Demo
+
+![Demo](http://g.recordit.co/zT0KrWjXoW.gif)
+
+### Installation
+
+```bash
+npm i -g burgerjs-cli
+burgerjs
+```
+
+### License
+
+MIT
