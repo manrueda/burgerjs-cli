@@ -7,13 +7,13 @@ if (!global.Intl) {
 }
 
 const IntlRelativeFormat = require('intl-relativeformat');
-const rf = new IntlRelativeFormat('en');
+const rf = new IntlRelativeFormat('es-ES');
 
 got('https://api.meetup.com/burgerjs/events')
     .then(res => JSON.parse(res.body)[0])
     .then(event => {
         const missingTime = rf.format(new Date(event.time + event.utc_offset));
-        const message = `\nThe next burger.js is ${missingTime}`;
+        const message = `\nEl próximo burger.js es ${missingTime}`;
 
         logo.print();
 
@@ -22,7 +22,7 @@ got('https://api.meetup.com/burgerjs/events')
             console.log(colors.yellow.bold(message));
 
             // eslint-disable-next-line no-console
-            console.log(`More info: ${event.link}\n`);
+            console.log(`Más info: ${event.link}\n`);
         }, 100);
     })
     .catch(error => {
