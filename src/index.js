@@ -12,6 +12,11 @@ const rf = new IntlRelativeFormat('es-ES');
 got('https://api.meetup.com/burgerjs/events')
     .then(res => JSON.parse(res.body)[0])
     .then(event => {
+        if (!event){
+            // eslint-disable-next-line no-console
+            console.log('Todavía no hay una próxima BurgerJS programada :(');
+            return;
+        }
         const missingTime = rf.format(new Date(event.time + event.utc_offset));
         const message = `\nEl próximo burger.js es ${missingTime}`;
 
