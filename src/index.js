@@ -17,13 +17,11 @@ got('https://api.meetup.com/burgerjs/events')
 
         logo.print();
 
-        setTimeout(() => {
-            // eslint-disable-next-line no-console
-            console.log(colors.yellow.bold(message));
+        // eslint-disable-next-line no-console
+        console.log(colors.yellow.bold(message));
 
-            // eslint-disable-next-line no-console
-            console.log(`Más info: ${event.link}\n`);
-        }, 100);
+        // eslint-disable-next-line no-console
+        console.log(`Más info: ${event.link}\n`);
     })
     .catch(error => {
         // eslint-disable-next-line no-console
