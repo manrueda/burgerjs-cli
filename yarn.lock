@@ -82,11 +82,12 @@ buffer-shims@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/buffer-shims/-/buffer-shims-1.0.0.tgz#9978ce317388c649ad8793028c3477ef044a8b51"
 
-burgerjs-logo@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/burgerjs-logo/-/burgerjs-logo-0.1.1.tgz#ddd451f6a409e869fb82b76db2d9e07c3ca0f7a0"
+burgerjs-logo@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/burgerjs-logo/-/burgerjs-logo-0.2.1.tgz#5821b7add16e470a7d65310198d331dcc4a21e69"
   dependencies:
-    turbo-logo "^0.3.0"
+    color "^1.0.3"
+    turbo-logo "^0.3.1"
 
 caller-path@^0.1.0:
   version "0.1.0"
@@ -137,6 +138,30 @@ co@^4.6.0:
 code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
+
+color-convert@^1.8.2:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.0.tgz#1accf97dd739b983bf994d56fec8f95853641b7a"
+  dependencies:
+    color-name "^1.1.1"
+
+color-name@^1.0.0, color-name@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.1.tgz#4b1415304cf50028ea81643643bd82ea05803689"
+
+color-string@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/color-string/-/color-string-1.4.0.tgz#2b47f8565fb0eb52f9f77c801992b8ca55d6e898"
+  dependencies:
+    color-name "^1.0.0"
+    simple-swizzle "^0.2.2"
+
+color@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/color/-/color-1.0.3.tgz#e48e832d85f14ef694fb468811c2d5cfe729b55d"
+  dependencies:
+    color-convert "^1.8.2"
+    color-string "^1.4.0"
 
 colors@^1.1.2:
   version "1.1.2"
@@ -523,6 +548,10 @@ intl@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/intl/-/intl-1.2.5.tgz#82244a2190c4e419f8371f5aa34daa3420e2abde"
 
+is-arrayish@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/is-arrayish/-/is-arrayish-0.3.1.tgz#c2dfc386abaa0c3e33c48db3fe87059e69065efd"
+
 is-ci@^1.0.9:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/is-ci/-/is-ci-1.0.10.tgz#f739336b2632365061a9d48270cd56ae3369318e"
@@ -813,6 +842,12 @@ shelljs@^0.7.5:
     interpret "^1.0.0"
     rechoir "^0.6.2"
 
+simple-swizzle@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
+  dependencies:
+    is-arrayish "^0.3.1"
+
 slice-ansi@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/slice-ansi/-/slice-ansi-0.0.4.tgz#edbf8903f66f7ce2f8eafd6ceed65e264c831b35"
@@ -885,9 +920,9 @@ tryit@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/tryit/-/tryit-1.0.3.tgz#393be730a9446fd1ead6da59a014308f36c289cb"
 
-turbo-logo@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/turbo-logo/-/turbo-logo-0.3.0.tgz#2ccbe23978516ed021da21f29a2380ba3dacdcb3"
+turbo-logo@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/turbo-logo/-/turbo-logo-0.3.1.tgz#d8c05c250c2939e6c0380a8c370e3ceca408e76c"
   dependencies:
     colors "^1.1.2"
     figlet "^1.2.0"
