@@ -1,7 +1,7 @@
 {
   "name": "burgerjs-cli",
   "description": "This package will install the `burgerjs` command to know when is the next BurgerJS",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "src/index.js",
   "engines": {
     "node": ">=4"
