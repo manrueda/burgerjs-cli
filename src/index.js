@@ -43,7 +43,7 @@ got('https://api.meetup.com/burgerjs/events')
 
                 if (rsvps.length) {
                     // eslint-disable-next-line no-console
-                    console.log('Los valientes anotados por ahora son:');
+                    console.log('Las personas anotadas por ahora son:');
 
                     // eslint-disable-next-line no-console
                     rsvps.map(rsvp => console.log(`${rsvp.member.name} ${rsvp.guests > 0 ? colors.green('+ ' + rsvp.guests + ' invitados') : ''}`));
