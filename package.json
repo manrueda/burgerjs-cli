@@ -28,7 +28,7 @@
     "intl-relativeformat": "^1.3.0"
   },
   "devDependencies": {
-    "eslint": "^3.14.1",
+    "eslint": "^3.19.0",
     "husky": "^0.13.1"
   },
   "bugs": {
